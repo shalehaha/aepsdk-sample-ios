@@ -1,0 +1,6 @@
+module Pods_AEPSample {
+  umbrella header "Pods-AEPSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

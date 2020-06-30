@@ -1,0 +1,8 @@
+platform :ios, '10.0'
+
+target 'AEPSample' do
+    pod 'AEPServices', :git => 'git@github.com:shalehaha/aepsdk-core-ios.git', :branch => 'cocoapod'
+    pod 'AEPEventhub', :git => 'git@github.com:shalehaha/aepsdk-core-ios.git', :branch => 'cocoapod'
+    pod 'AEPSampleExtension', :git => 'git@github.com:shalehaha/aepsdk-sampleextension-ios', :branch => 'master'
+end
+

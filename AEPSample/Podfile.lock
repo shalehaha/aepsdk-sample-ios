@@ -1,0 +1,43 @@
+PODS:
+  - AEPEventhub (0.0.1):
+    - AEPServices
+  - AEPSampleExtension (0.0.1):
+    - AEPEventhub
+    - AEPServices
+  - AEPServices (0.0.1)
+
+DEPENDENCIES:
+  - "AEPEventhub (from `git@github.com:shalehaha/aepsdk-core-ios.git`, branch `cocoapod`)"
+  - "AEPSampleExtension (from `git@github.com:shalehaha/aepsdk-sampleextension-ios`, branch `master`)"
+  - "AEPServices (from `git@github.com:shalehaha/aepsdk-core-ios.git`, branch `cocoapod`)"
+
+EXTERNAL SOURCES:
+  AEPEventhub:
+    :branch: cocoapod
+    :git: "git@github.com:shalehaha/aepsdk-core-ios.git"
+  AEPSampleExtension:
+    :branch: master
+    :git: "git@github.com:shalehaha/aepsdk-sampleextension-ios"
+  AEPServices:
+    :branch: cocoapod
+    :git: "git@github.com:shalehaha/aepsdk-core-ios.git"
+
+CHECKOUT OPTIONS:
+  AEPEventhub:
+    :commit: e0aff259ee9e2fcdb34fe3d25cdeab247b6e9de8
+    :git: "git@github.com:shalehaha/aepsdk-core-ios.git"
+  AEPSampleExtension:
+    :commit: d993a944e158c9722d29a9009515a6c8ab2a217f
+    :git: "git@github.com:shalehaha/aepsdk-sampleextension-ios"
+  AEPServices:
+    :commit: e0aff259ee9e2fcdb34fe3d25cdeab247b6e9de8
+    :git: "git@github.com:shalehaha/aepsdk-core-ios.git"
+
+SPEC CHECKSUMS:
+  AEPEventhub: 909d7ad641d653baaf23a80a59ef90d099a2156c
+  AEPSampleExtension: 894bac9c6e25ef23853212fb67968df81ba85bf5
+  AEPServices: 9e5dabf80229214e8d2ad00d81436fcb0175a41b
+
+PODFILE CHECKSUM: c10ce6557f19d8e00996ed0c31c6aaa3eaa17576
+
+COCOAPODS: 1.8.4
