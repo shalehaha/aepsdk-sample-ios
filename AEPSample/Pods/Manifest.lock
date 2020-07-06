@@ -1,15 +1,18 @@
 PODS:
   - AEPEventhub (0.0.1):
     - AEPServices
+    - SwiftRulesEngine
   - AEPSampleExtension (0.0.1):
     - AEPEventhub
     - AEPServices
   - AEPServices (0.0.1)
+  - SwiftRulesEngine (0.0.1)
 
 DEPENDENCIES:
   - "AEPEventhub (from `git@github.com:shalehaha/aepsdk-core-ios.git`, branch `cocoapod`)"
   - "AEPSampleExtension (from `git@github.com:shalehaha/aepsdk-sampleextension-ios`, branch `master`)"
   - "AEPServices (from `git@github.com:shalehaha/aepsdk-core-ios.git`, branch `cocoapod`)"
+  - "SwiftRulesEngine (from `git@github.com:shalehaha/aepsdk-rulesengine-ios.git`, branch `dev`)"
 
 EXTERNAL SOURCES:
   AEPEventhub:
@@ -21,23 +24,30 @@ EXTERNAL SOURCES:
   AEPServices:
     :branch: cocoapod
     :git: "git@github.com:shalehaha/aepsdk-core-ios.git"
+  SwiftRulesEngine:
+    :branch: dev
+    :git: "git@github.com:shalehaha/aepsdk-rulesengine-ios.git"
 
 CHECKOUT OPTIONS:
   AEPEventhub:
-    :commit: e0aff259ee9e2fcdb34fe3d25cdeab247b6e9de8
+    :commit: 3c1ab84903f3ffd4a996dff482a7ed0efe945961
     :git: "git@github.com:shalehaha/aepsdk-core-ios.git"
   AEPSampleExtension:
-    :commit: d993a944e158c9722d29a9009515a6c8ab2a217f
+    :commit: 46e1e76dccc8ccae4084a190aef0a4a6a498d6db
     :git: "git@github.com:shalehaha/aepsdk-sampleextension-ios"
   AEPServices:
-    :commit: e0aff259ee9e2fcdb34fe3d25cdeab247b6e9de8
+    :commit: 3c1ab84903f3ffd4a996dff482a7ed0efe945961
     :git: "git@github.com:shalehaha/aepsdk-core-ios.git"
+  SwiftRulesEngine:
+    :commit: 467fcc0e046971ce2ed1ca379e50fcc327c8d3a8
+    :git: "git@github.com:shalehaha/aepsdk-rulesengine-ios.git"
 
 SPEC CHECKSUMS:
-  AEPEventhub: 909d7ad641d653baaf23a80a59ef90d099a2156c
+  AEPEventhub: 8eaeada0c25667e9d46c6d982feeece16e66be58
   AEPSampleExtension: 894bac9c6e25ef23853212fb67968df81ba85bf5
-  AEPServices: 9e5dabf80229214e8d2ad00d81436fcb0175a41b
+  AEPServices: d6c2385e5a7253cca195360d54051dc73aa31edb
+  SwiftRulesEngine: 61ffafd22c9f1d2e09b344fcad15069e362c9ac1
 
-PODFILE CHECKSUM: c10ce6557f19d8e00996ed0c31c6aaa3eaa17576
+PODFILE CHECKSUM: 461b13901b5b8c8fb73d9998cc7ee211693dec0b
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3

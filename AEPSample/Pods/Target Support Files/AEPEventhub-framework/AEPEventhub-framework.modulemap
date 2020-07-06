@@ -1,0 +1,6 @@
+framework module AEPEventhub {
+  umbrella header "AEPEventhub-framework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-AEPSample_Objc/Pods-AEPSample_Objc-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AEPEventhub-framework/AEPEventhub.framework
+${BUILT_PRODUCTS_DIR}/AEPSampleExtension-framework/AEPSampleExtension.framework
+${BUILT_PRODUCTS_DIR}/AEPServices-framework/AEPServices.framework
+${BUILT_PRODUCTS_DIR}/SwiftRulesEngine-framework/SwiftRulesEngine.framework
